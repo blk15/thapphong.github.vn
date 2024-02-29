@@ -1,0 +1,63 @@
+.menu{
+    background-color: lightblue;
+    list-style-type: none;
+    float: none;
+    padding-bottom: 10px;
+    display: flex;
+}
+.menu li{
+    color: white;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.menu .search #register{
+    color: aliceblue;
+    background-color: green;
+}
+.menu .search{
+    margin-top: 15px;
+    margin-left: 250px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #222;
+    display: block;
+    font-weight: bold;
+}
+.menu li a:hover{
+    background-color: white;
+    padding: 5px;
+}
+.noidung{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(255,255,255);
+}
+.tintuc{
+    display: flex;
+    padding: 10px;
+    margin: 10px 10px;
+}
+.hinhanh img{
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+}
+.thongtin{
+    margin 20px;
+}
+.tieude{
+    background-color:white;
+}
+.noidung #quangcao{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    margin: 10px 10px;
+}
